@@ -1,0 +1,18 @@
+version = 1
+
+exclude_patterns = [
+    "format_docs/**",
+    "imgsrc/**",
+    "recipes/**"
+]
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "javascript"
+enabled = true
